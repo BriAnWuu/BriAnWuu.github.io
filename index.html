@@ -20,7 +20,7 @@
             $('#userid').val(data.context.userId);
         }
         //ready
-        function go() {
+        $(function () {
             //init LIFF
             liff.init(function (data) {
                 initializeApp(data);
@@ -49,8 +49,7 @@
                    alert('done');
                })
             });
-        }
-		go();
+        });
     </script>
 </head>
 <body>
