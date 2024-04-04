@@ -2,8 +2,8 @@ const galleryItems = [
     {
         fullLink: 'images/fulls/01.jpg',
         thumbLink: 'images/thumbs/01.jpg',
-        repoLink: 'https://github.com/ajlkn/jquery.poptrox',
-        header: 'Hello',
+        repoLink: 'https://public.tableau.com/app/profile/brian.w1342/viz/CyclisticNYCBikeShare/Story',
+        header: 'Cyclistic NYC Bike Share',
         paragraph: 'you good.'
     },
     {
