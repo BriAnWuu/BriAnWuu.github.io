@@ -109,7 +109,7 @@
 
 					const h3 = $('<h3>');
 
-					const repolink = $('<a>', {href: item.repoLink}).text(item.header);
+					const repolink = $('<a>', {href: item.repoLink, target: '_blank'}).text(item.header);
 
 					const p = $('<p>').text(item.paragraph)
 					
