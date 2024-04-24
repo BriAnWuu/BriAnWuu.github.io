@@ -125,7 +125,7 @@
 				$('#two').poptrox({
 					caption: function($a) { 
 						return $a.next('h3').clone();
-					}, // ***
+					}, 
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.9,
 					popupCloserText: '',
@@ -134,7 +134,7 @@
 					usePopupCaption: true,
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
-					// usePopupNav: true,
+					usePopupNav: true,
 					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 				});
 
