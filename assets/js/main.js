@@ -98,28 +98,20 @@
 			$window.on('load', function() {
 
 				// Build gallery
-				const container = $('#build-gallery');
+				const gallery = $('#build-gallery');
 
 				galleryItems.forEach(item => {
 					const article = $('<article>', {class: 'col-6 col-12-xsmall work-item'});
-
 					const link = $('<a>', {href: item.fullLink, class: 'image fit thumb'});
-
 					const img = $('<img>', {src: item.thumbLink, alt: ''});
-
 					const h3 = $('<h3>');
-
 					const repolink = $('<a>', {href: item.repoLink, target: '_blank'}).text(item.header);
-
 					const p = $('<p>').text(item.paragraph)
 					
 					link.append(img)
-
 					h3.append(repolink)
-
 					article.append(link, h3, p);
-
-					container.append(article);
+					gallery.append(article);
 				});
 
 				$('#two').poptrox({
