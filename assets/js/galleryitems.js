@@ -23,9 +23,9 @@ const galleryItems = [
     {
         fullLink: 'images/fulls/04.jpg',
         thumbLink: 'images/thumbs/04.jpg',
-        repoLink: '#',
+        repoLink: 'https://brianwuu.github.io/Financial_Risk_Management/',
         header: 'Financial Risk Management Project',
-        paragraph: 'An R script that measures the risks of a portfolio of options and analyzes the portfolio on different time horizons'
+        paragraph: 'An R notebook that measures the risks of a portfolio of options and analyzes the portfolio on different time horizons'
     },
     {
         fullLink: 'images/fulls/05.jpg',
