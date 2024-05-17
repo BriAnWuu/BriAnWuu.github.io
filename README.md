@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-This portfolio website being hosted on Github Pages: [https://brianwuu.github.io/](https://brianwuu.github.io/)
+This portfolio website is hosted on Github Pages: [https://brianwuu.github.io/](https://brianwuu.github.io/)
 
 ## Credit
 This portfolio website is an adaptation of the [HTML5 UP](https://html5up.net/) template "strata" by [@ajlkn](https://github.com/ajlkn).
